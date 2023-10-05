@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Show OGP Headlines on X",
+  "version": "0.0.1",
+
+  "description": "via aria-label",
+
+  "content_scripts": [
+    {
+      "matches" : ["https://twitter.com/*"],
+      "js" : ["content-script.js"]
+    }
+  ]
+}
